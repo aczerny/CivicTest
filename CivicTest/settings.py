@@ -104,10 +104,10 @@ WSGI_APPLICATION = 'CivicTest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd3is72ak8ecjvl',
-        'HOST': 'ec2-50-16-231-2.compute-1.amazonaws.com',
-        'USER': 'jluakuybytsiwr',
-        'PASSWORD': '6f1e7a178d00cd5282dd566cc0f764771e029566b220572483eebdd5261aef94',
+        'NAME': 'address',
+        'HOST': 'localhost',
+        'USER': 'address',
+        'PASSWORD': '357357',
         'PORT': '5432',
     }
 }
