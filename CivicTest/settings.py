@@ -35,9 +35,7 @@ API_URL = 'https://maps.googleapis.com/maps/api/{}/json?'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'civictest.herokuapp.com'
-]
+ALLOWED_HOSTS = []
 
 
 # Application definition
