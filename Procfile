@@ -1,1 +1,1 @@
-web: gunicorn myapp.wsgi
+web: python civictest/manage.py runserver
