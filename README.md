@@ -46,3 +46,20 @@ Deployment:
     - Go to your internet navigator and put the url:
     http://localhost:8000/admin/
 
+Heroku:
+
+    - See this project running on Heroku:
+    URL: https://civictest.herokuapp.com
+
+    - Users:
+        - username: jtrh
+        - password: CivicBrain
+
+        - username: amenadiel
+        - password: CivicBrain
+
+    - Admin:
+    URL: https://civictest.herokuapp.com/admin/
+
+    - API:
+    URL: https://civictest.herokuapp.com/core/api/address/
