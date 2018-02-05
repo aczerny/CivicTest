@@ -49,7 +49,7 @@ class AddressViewSet(viewsets.ModelViewSet):
         return api_response_dict
 
     def create(self, request):
-        address = request.data['address']
+        address = request.data['address'] if request.data['address'] else ''
         response_address = self.getLocation(address)
 
         response = ''
