@@ -21,11 +21,17 @@ import requests
 
 class AddressViewSet(viewsets.ModelViewSet):
     """
-        API para listar todas las address:
-            URL: /core/api/address/
+        GET METHOD:
+            API Return a list of all the existing address:
+                URL: /core/api/address/
 
-        API para listar address por id:
-            URL: /core/api/address/<id>/
+            API Return the existing address by id:
+                URL: /core/api/address/<id>/
+        POST METHOD:
+            API Create a new address instance:
+                URL: /core/api/address/
+                body: address: <String>
+            NOTE: Need autentication.
     """
     api_key = settings.API_KEY
     url = settings.API_URL
